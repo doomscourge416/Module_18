@@ -1,0 +1,1291 @@
+body {
+
+    margin: 0;
+    font-size: larger;
+    font-family: 'Nunito Sans', Arial;
+}
+
+main {
+
+    position: relative;
+
+}
+
+/* section{
+
+    width: 1440px;
+} */
+
+/* -----------------------------------------   СТИЛИЗАЦИЯ HEADER   ----------------------------------------- */
+
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+
+}
+
+
+.phonenumber {
+
+    display: flex;
+    max-height: 127px;
+    float: right;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    min-width: max-content;
+    /* color: white; */
+    font-size: 14px;
+    /* margin: auto; */
+    text-decoration: underline;
+    color:#e3b873;
+    
+    
+}
+
+.phonenumber span {
+
+    cursor: pointer;
+
+}
+
+
+.CallRequest {
+
+    position: relative;
+    background: #e3b873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border: 0;
+    border-radius: 2px;
+    outline: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.logo{
+    width: max-content;
+    align-items: center;
+    margin: auto auto auto 20px ;
+    min-width: max-content;
+}
+
+.logolink{
+    text-decoration: none;
+    color: #e3b873;
+    
+}
+
+.header__div {
+    display: flex;
+    flex-basis: 120px;
+    flex-shrink: 1;    
+
+}
+
+.header {
+
+    display: flex;
+    
+    flex-shrink: 0.1;
+    width: 100%;
+    background-color: #181818;
+    
+
+}
+.header__nav {
+
+    display: flex;
+    flex-shrink: 1;
+
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation__item {
+    margin-right: 1.5vw;
+
+}
+
+.header-navigation__item a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* -----------------------------------------   СТИЛИЗАЦИЯ HERO1   ----------------------------------------- */
+.hero {
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    height: 700px;
+    padding-top: 194px;
+    position: relative;
+}
+
+
+
+ .hero-overlay { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;  
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 0;
+} 
+
+.hero-container {
+
+    
+    margin-left: 10%;
+    margin-top: 194px;
+    margin-bottom: 208px;
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    /* letter-spacing: 0em; */
+    text-align: left;
+    /* z-index: 1; */
+
+}
+
+.title span{
+    color:#e3b873;
+}
+
+.hero p {
+    width: 50%;
+    font-family: 'Nunito Sans', Arial;
+    text-align: left;
+    /* font-family: 'Nunito Sans'; */
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+
+}
+
+
+.button__gold {
+
+    box-shadow: 0px 5px 15px 0px #E3B8734D;
+    background-color: #e3b873;
+    width: 207px;
+    height: 51px;
+    border: none;
+    border-radius: 2px;
+    /* margin: 0 auto; */ /* МОЖНО ВКЛЮЧИТЬ ОБРАТНО ЕСЛИ ПОНАДОБИТСЯ */ 
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Nunito Sans', Arial;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.button__transparent {
+    
+    width: 207px;
+    height: 51px;
+    border-radius: 2px;
+    margin: auto;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Nunito Sans', Arial;
+    font-size: 11px;
+    font-style: italic;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    background: none;
+
+    cursor: pointer;
+}
+
+
+/* -----------------------------------------   СТИЛИЗАЦИЯ HERO2   ----------------------------------------- */
+
+.hero2 {
+
+    background-color: #131313;
+    display: flex;
+    /* margin-top: 0; */
+}
+
+.photo__link{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.hero2container{
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-basis: auto; */
+    /* align-items: center; */
+    /* margin-top: -19px; */
+    /* margin-top: 100px; */
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    margin: 100px 7% 0 7%;
+    width: 100%;
+    height: 1074px;
+
+}
+
+.list__container {
+    position: relative;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+    /* float: right; */
+    display: flex;
+    
+    
+    /* width: 100%; */
+    height: min-content;
+    /* margin-right: 50px; */
+    
+}
+
+.hero2list{
+
+    /* margin-right: 15% ; */
+    display: flex;
+    width: max-content;
+    text-transform: uppercase;
+    list-style-type: none;
+
+}
+
+.hero2list a{
+
+    margin-right: 25px;
+    font-family: 'Yeseva One', 'Nunito Sans', Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    /* letter-spacing: 0.1em; */
+    /* text-align: left; */
+    color: #e3b873; 
+    /* gap: 50px; */
+    
+    
+
+    /* margin-right: 30px; */
+}
+
+.hero2list a.inactive{
+
+    text-decoration: none;
+    color: #FFFFFF4D;
+
+
+}
+
+.hero2__content {
+
+    display: flex;
+    flex: row;
+    /* flex-wrap: wrap; */
+    position: relative;
+
+}
+
+.hero2__content img { 
+    
+
+    /* margin-top: -100px; */
+    /* top: 0; */
+    /* order: -1; */
+    /* margin: auto; */
+    /* width: 50%; */
+    /* margin-right: ; */
+    /* width: 50%; */
+    /* min-height: 80vh; */
+    /* max-width: 100%; 
+    height: auto; */
+
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+    width: auto;
+
+}
+
+.hero2__textcontent {
+    /* max-width: 500px; */
+    width:min-content;
+    /* position: relative; */
+    margin-left: 10%;
+    /* margin-top: 105px; */
+    /* display: flexbox; */
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:  500px;
+    flex-direction: column;
+    
+    
+}
+
+.hero2__textcontent h2 {
+
+    /* order:  -2; */
+    width:max-content;
+    /* margin-left: 100px; */
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+
+}
+
+.hero2__textcontent p {
+
+    /* order: 2; */
+    /* margin-left: 100px; */
+    width: 442px;
+    height: 86px;
+    font-family: 'Nunito Sans', Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+
+
+.scroll__arrows {
+
+    margin-top: 18%;
+    /* align-items: flex-start; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-basis: auto; */
+    /* flex-shrink: 4; */
+    /* height: 50px; */
+    width: 200px;
+    /* background-color: aliceblue; */
+
+}
+
+.ggwp img{
+    height: 15px;
+    width:15px;
+
+}
+
+.hero2__container  {
+
+
+    display: flex;
+    margin: left 10%;;
+}
+
+.hero2__textcontent {
+
+    display: block;
+
+}
+
+
+.hero2subcontent{
+
+    /* margin-left: 100px; */
+    width: 500px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    height: 200px;
+
+}
+
+
+.hero2h3 h3{
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+
+
+
+}
+
+.hero2h3 span{
+
+    font-family: 'Nunito Sans', Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+/* -----------------------------------------   СТИЛИЗАЦИЯ HERO3   ----------------------------------------- */
+
+.hero3{ 
+    position: relative;
+    top: 0;
+    margin-top: -450px;
+    height: 1074px;
+    /* background-color: #E3B873; */
+    /* background-color: #645d51; */
+    width: 98vw;
+
+
+}
+
+.wrapper__hero3{
+
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.wrapper__hero3 svg{
+
+    margin-bottom: 3%;
+}
+
+.wrapper__hero3 h3{
+
+    margin-top: 100px;
+    font-family: 'Yeseva One', 'Nunito Sans', Arial;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.wrapper__hero3 hr{
+
+    margin-top: 62.5px;
+    border: none;
+    height: 1.5px;
+    width: 55px;
+    background: #E3B873;
+    border-radius: 30px;
+}
+
+.wrapper__hero3 p {
+
+    max-width: 680px;
+    font-family: 'Nunito Sans', Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+}
+
+.imghero3{
+
+    position: relative;
+}
+
+#hero3img1{
+
+    max-width: min-content;
+    margin: auto;
+}
+
+#hero3img2{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form__hero3{
+
+    margin-top: 3%;
+}
+
+.checkbox__wrapper__hero3{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper__hero3 label {
+
+    color:#c3c3c3;
+}
+
+.formWrapper__hero3{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    width: 55vw;
+}
+
+.formWrapper__hero3 label{
+
+    display: flex;
+    flex-direction: column ;
+    max-width: 200px;
+    /* margin-right: 105px ; */
+}
+
+/*.formWrapper__hero3*/ input{
+
+    border: none;
+    border-bottom: 1px solid #c3c3c3;
+    color:#6a6a6a;
+    font-family: 'Nunito Sans', Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+
+
+.checkbox{
+
+    z-index: -1;
+    position: absolute;
+    opacity: 0;
+}
+
+.checkbox_label{
+
+    margin-top: 5%;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.checkbox_label p::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 0.5px solid black;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.checkbox_label input:not(:disabled):not(:checked) + p:hover::before{
+
+    border-color: #E3B873;
+}
+
+.checkbox_label input:not(:disabled):active + p::before {
+
+    background-color: #E3B873;
+    border-color: #d7ae6c;
+}
+
+.checkbox_label  input:focus + p::before {
+
+    /* box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.15); */
+    border: 0.5px solid #E3B873;
+}
+
+.checkbox_label  input:focus:not(:checked) + p::before {
+    border-color: black;
+}
+
+.checkbox_label input:checked + p::before {
+    /* border-color: black; */
+    background-color: #E3B873;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+
+
+
+/* -----------------------------------------   СТИЛИЗАЦИЯ HERO4   ----------------------------------------- */
+
+
+.wrapper_hero4 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.wrapper_hero4 h3{
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #181818;
+
+
+}
+
+.product_card_wrapper{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.product_card{
+    width: 420px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.product_card_img{
+    top: 15px;
+    z-index: -1;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.product_card_text {
+
+    background: #FFFFFF;
+    box-shadow: 5px 10px 20px 20px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: white;
+    /* position: relative; */
+}
+
+.product_card_text span{
+
+    margin-left: 30px;
+    margin-top: 25px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #363636;
+
+}
+
+.product_card_text ul{
+
+    font-family: 'Nunito Sans', Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+
+    color: #959595;
+}
+
+.appointment__wrapper {
+
+    padding-top: 100px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+    /* justify-content: center; */
+}
+
+.advantages_background{
+
+    z-index: -1;
+    position: absolute;
+    left: 0;
+}
+
+.advantages__wrapper{
+
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.advantages__wrapper div{
+
+    display: flex;
+    align-items: center;
+}
+
+.advantages__wrapper p {
+    font-family: 'Nunito Sans', Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #363636;
+
+
+    max-width: 380px;
+}
+
+.appointment__form{
+
+    color: white;
+
+    background-color: #181818;
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 3px;
+
+    font-size: 14px;
+}
+
+.appointment__wrapper label:nth-child(n+2){
+    width: 80%  ;
+    /* background-color: white; */
+}
+
+.appointment__form label{
+
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+}
+
+.appointment__form input{
+
+    color:white;
+    background-color: #181818;
+}
+
+.appointment__form__request{
+
+    font-size: 18px;
+    width: 50%;
+}
+
+.appointment__form button{
+
+    margin-left: auto;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.measurer_checkbox{
+
+    width: 450px;
+}
+
+.checkbox__wrapper__hero4{
+
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sale_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%; 
+    margin-left: auto;
+}
+
+.sale_div p{
+
+    font-family: 'Nunito Sans', Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #E3B873;
+
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+/* -----------------------------------------   СТИЛИЗАЦИЯ HERO5   ----------------------------------------- */
+
+.hero5{
+
+    margin-top: 150px;
+    height: 850px;    
+
+}
+
+.wrapper_hero5{
+
+    margin: auto;
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero5_backgroundimage{
+
+    filter: brightness(35%);
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 865px;
+}
+
+
+
+.hero5_ul_wrapper{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* padding: 10% 0; */
+    margin-right: 15%;
+}
+
+.hero5_h2{
+
+    font-family: 'Yeseva One', 'Nunito Sans', Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.hero5_ul{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 55px;
+    color: #FFFFFF;
+    list-style-type: none;
+
+}
+
+.hero_5_photo_div{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero_5_photo_div img{
+
+    /* object-fit: cover; */
+    height: auto;
+    width: 100%;
+}
+
+
+
+/* <!--  ПРОДОЛЖИТЬ ОТСЮДА СОЗДАНИЕ ДИВОВ ХИРО6--> */
+/* -----------------------------------------   СТИЛИЗАЦИЯ HERO5   ----------------------------------------- */
+
+
+/* -----------------------------------------  Если экран меньше 768 px  ----------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+
+    .appointment__wrapper{
+        display: none;
+        padding-top: 0;
+    }
+
+    .sale_div{
+
+        display: none;
+    }
+
+    .appointment__form{
+
+        margin-top: 0;
+    }
+
+    .product_card{
+
+        margin-bottom: 100px;
+    }
+
+    .product_card_wrapper{
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product_card button{
+
+        width: 200px;
+    }
+
+    .product_card_text{
+        margin-right: auto;
+    }
+
+    .hero4{
+
+        position: relative;
+        top: 200px;
+    }
+
+    .wrapper_hero4 {
+        margin-top: 50px;
+    }
+
+    .checkbox__wrapper__hero3{
+
+        margin-top:-107px;
+    }
+
+    .wrapper__hero3{
+
+        
+        background-color: #131313;
+    }
+
+    .wrapper__hero3 p{
+
+        font-size: 17px;
+        font-weight: 600;
+        padding: 55px;
+        color: white;
+    }
+
+    .formWrapper__hero3{
+
+        width: 95vw;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .formWrapper__hero3 label{
+
+        margin-left: 17px;
+        margin-bottom: 50px;
+    }
+
+    .formWrapper__hero3 input{
+
+        color: white;
+        font-size: large;
+        background-color: #131313;
+        width: 90vw;
+    }
+
+    .submitButton{
+
+        width: 75vw;
+        position: absolute;
+        bottom: -215px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .phonenumber{
+
+        margin-right: 40px;
+        font-size: 20px;
+        
+    } 
+
+    .header-navigation{
+
+        display: none;
+    }
+
+    .hero3 {
+
+        /* top: -97px; */
+        top:25px;
+
+    }
+
+    .hero-container{
+
+        top: -100px;
+
+    }
+    .hero p{
+
+        font-size: 1.2rem;
+
+    }
+
+    .scroll__arrows {
+
+        display: none;
+
+    }
+
+    .button__container1 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: min-content;
+        gap: 15px;
+    
+    }
+
+    .button__gold  {
+
+        width: 75vw;
+
+    }
+
+
+    .button__transparent {
+
+
+        width: 75vw;
+
+    }
+
+    .hero2container {
+        
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .hero2__content { 
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .hero2__content img { 
+
+
+        /* height: auto; */
+        width: 420px;
+
+    }
+
+    .hero2subcontent{
+
+        position:absolute;
+        top:105%;
+
+    }
+
+    .list__container {
+
+
+        display: none;
+
+    }
+
+    /* .wrapper__hero3{
+
+        width: 100vw;
+    } */
+  }
+/* ------------------- Если экран меньше 1000 px------------------------------------------------------------------- */
+  @media only screen and (max-width: 1000px) { 
+
+    #hero3img1{
+
+        width: 75vw;
+    }
+
+    .wrapper__hero3{
+
+        width: 100%;
+    }
+
+    .phonenumber{
+        
+        color: white;
+    }
+
+    .header-navigation {
+
+        display: none;
+        /* font-size: smaller; */
+    }
+
+    .hero3{
+
+        margin-top: -300px;
+        width: 100%;
+
+    }
+    .scroll__arrows{
+
+        display: none;
+
+    }
+
+    .hero2__content img {
+
+        width: auto;
+
+    }
+
+
+    .hero2list{
+
+        display: none;
+
+    }
+
+    /* .hero2{
+
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero2__container{
+
+        align-items: center;
+    } */
+    .hero2__content {
+        
+        margin-left: 10vw;
+        max-width: 700px;
+        flex-direction: column;
+
+    }
+
+    .hero2__textcontent {
+
+        margin-left: 50px;
+
+    }
+
+  }
+/* ------------------- Если экран меньше 1300 px------------------------------------------------------------------- */
+
+  @media only screen and (max-width: 1300px) {
+
+    .hero5_ul_wrapper{
+        margin-right: 0;
+    }
+
+    .CallRequest{
+
+        display: none;
+    }
+
+    .phonenumber{
+
+        margin-right: 25px;
+        font-size: 1rem;
+    }
+
+/*  .hero2__content img { 
+        width: auto; 
+        height: 350px;
+    }
+*/
+    .hero2subcontent{
+
+        width: 300px;
+
+    }
+
+    .hero2__textcontent {
+        width: min-content;
+        margin-left: 5%;
+    
+    }
+
+
+    .hero2__textcontent p {
+
+        width: 380px;
+
+    }
+
+
+}
+
+/* ------------------- Если экран меньше 1411 px------------------------------------------------------------------- */
+
+
