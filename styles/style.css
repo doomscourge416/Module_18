@@ -129,6 +129,11 @@ main {
 
 
 /* -----------------------------------------   СТИЛИЗАЦИЯ HERO1   ----------------------------------------- */
+
+.hidden{
+
+    display: none;
+}
 .hero {
     background-image: url(../images/hero.png);
     background-size: cover;
@@ -256,15 +261,15 @@ main {
 
 .hero2container{
 
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     /* flex-basis: auto; */
-    /* align-items: center; */
+    align-items: center;
     /* margin-top: -19px; */
     /* margin-top: 100px; */
     /* margin-left: 10%; */
     /* margin-right: 10%; */
-    margin: 100px 7% 0 7%;
+    /* margin: 100px 7% 0 7%; */
     width: 100%;
     height: 1074px;
 
@@ -353,7 +358,7 @@ main {
     /* max-width: 500px; */
     width:min-content;
     /* position: relative; */
-    margin-left: 10%;
+    /* margin-left: 10%; */
     /* margin-top: 105px; */
     /* display: flexbox; */
     display: grid;
@@ -963,12 +968,527 @@ main {
 
 
 /* <!--  ПРОДОЛЖИТЬ ОТСЮДА СОЗДАНИЕ ДИВОВ ХИРО6--> */
-/* -----------------------------------------   СТИЛИЗАЦИЯ HERO5   ----------------------------------------- */
+/* -----------------------------------------   СТИЛИЗАЦИЯ HERO6   ----------------------------------------- */
+
+.hero6{
+
+    margin-top: 100px;
+    height: 1100px;
+    background-image: url(../images/hero6background1.jpg);
+    background-position: bottom;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+}
+
+.wrapper_hero6{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper_hero6 h2{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+
+}
+
+.wrapper_hero6 p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #363636;
+}
+
+.customers_wrapper{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 99vw;
+}
 
 
-/* -----------------------------------------  Если экран меньше 768 px  ----------------------------------------- */
+.nickname{
+
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+
+
+
+.customer_card img{
+
+    border-radius: 50%;
+}
+
+.customer_card{
+
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 10px 50px rgba(0, 0, 0, 0.04);
+    padding: 25px;
+    height: 380px;
+    width: 425px;
+
+}
+
+.customer_card h3{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #181818;
+
+
+}
+
+.customer_card p{
+
+    margin: 15px 50px;    
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 230%;
+    text-align: start;
+    /* or 23px */
+
+    color: #959595;
+
+
+}
+
+.m2_button{
+
+    background-color: #E3B873;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer_card svg{
+
+    position: absolute;
+    left: -15px;
+    bottom: -55px;
+}
+
+
+/* -----------------------------------------   СТИЛИЗАЦИЯ HERO7   ----------------------------------------- */
+
+.hero7 .form__hero3{
+
+    display: none;
+}
+
+.hero7{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero7background{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/hero7background.jpg);
+    background-size: 100%;
+    filter: brightness(20%);
+}
+
+.hero7 .appointment__form{
+    position: relative;
+    margin-top: -13%;
+    min-width: 880px;
+
+}
+
+.hero7 .appointment__form label{
+
+    /* margin: 15px; */
+    
+    
+}
+
+.halfsize_label{
+
+    width: 50%;
+}
+
+.hero7formrow{
+
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    gap: 50px;
+}
+
+.fullsize_label{
+
+    width: 70%;
+}
+
+#hero7submit{
+    position: relative;
+    margin: 0;
+    bottom:35px;
+}
+
+.hero7 h2{
+
+    max-width: 580px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.hero7 img{
+
+    margin: 75px auto;
+}
+
+
+/*   СТИЛИЗАЦИЯ FOOTER    */
+footer{
+    position: absolute;
+    width: 100%;
+    
+
+}
+
+.footer__div {
+    display: flex;
+    flex-basis: 120px;
+    flex-shrink: 1;    
+   
+
+}
+
+.footer {
+
+    display: flex;
+    
+    flex-shrink: 0.1;
+    width: 100%;
+    background-color: #181818;
+    
+
+}
+
+
+/* ------------------- Если экран меньше 1300 px------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1350px) {
+
+    .customer_card{
+
+        width: 340px;
+        height: 550px;
+    }
+
+    .hero5_ul_wrapper{
+        margin-right: 0;
+    }
+
+    .CallRequest{
+
+        display: none;
+    }
+
+    .phonenumber{
+
+        margin-right: 25px;
+        font-size: 1rem;
+    }
+
+/*  .hero2__content img { 
+        width: auto; 
+        height: 350px;
+    }
+*/
+    .hero2subcontent{
+
+        width: 300px;
+
+    }
+
+    .hero2__textcontent {
+        width: min-content;
+        /* margin-left: 5%; */
+    
+    }
+
+
+    .hero2__textcontent p {
+
+        width: 380px;
+
+    }
+
+
+}
+
+
+
+
+
+/* ------------------- Если экран меньше 1000 px------------------------------------------------------------------- */
+  @media only screen and (max-width: 1000px) { 
+
+    .hero2container{
+
+
+        /* transform: translateX(5%); */
+        /* margin: 20%; */
+    }
+
+    .maplocation{
+
+        height: auto;
+        width: 90%;
+    }
+
+    .hero6{
+
+        height: min-content;
+    }
+
+    .customers_wrapper{
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customer_card{
+
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    #hero3img1{
+
+        width: 75vw;
+    }
+
+    .wrapper__hero3{
+
+        width: 100%;
+    }
+
+    .phonenumber{
+        
+        color: white;
+    }
+
+    .header-navigation {
+
+        display: none;
+        /* font-size: smaller; */
+    }
+
+    .hero3{
+
+        margin-top: -300px;
+        width: 100%;
+
+    }
+    .scroll__arrows{
+
+        display: none;
+
+    }
+
+    .hero2__content img {
+
+        width: auto;
+
+    }
+
+
+    .hero2list{
+
+        display: none;
+
+    }
+
+    .hero2{
+
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    /* .hero2__container{
+
+        align-items: center;
+    } */
+    .hero2__content {
+        
+        /* margin-left: 10vw; */
+        max-width: 700px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .hero2__textcontent {
+
+        /* margin-left: 50px; */
+
+    }
+
+  }
+
+  @media only screen and (max-width: 840px) {
+
+
+    .hero5{
+        display: none;
+    }
+
+    
+  }
+
+
+  /* -----------------------------------------  Если экран меньше 768 px  ----------------------------------------- */
 
 @media only screen and (max-width: 768px) {
+
+    .hero7background{
+
+        display: none;
+    }
+
+    .footer{
+
+        display: none;
+    }
+
+    #footersubmit{
+
+        position: static;
+        
+        transform: translateX(10%);
+    }
+
+    #footercheckbox{
+        position: relative;
+
+        top:25px;
+    }
+
+    .hero7 h2{
+
+        position: absolute;
+        bottom: 30px;
+    }
+
+    .hero7 svg{
+
+        position: absolute;
+        bottom: 15px;
+    }
+
+    .maplocation{
+
+        position: relative;
+        bottom: 45px;
+    }
+
+    .hero7{
+
+        font-size: 1rem;
+        margin-top: 100px;
+        background-color: #181818;
+        /* z-index: 1; */
+        background-image: none;
+    }
+
+    .hidden{
+        z-index: 2;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hidden img{
+
+        width: 90%;
+        height: auto;
+    }
+
+    .hidden svg{
+
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        transform:translateY(50%)
+    }
+
+    .leftclick{
+
+        left: 5%;
+    }
+
+    .rightclick{
+
+        right: 5%;
+    }
+
+        
+    
+
+    .hero7 .appointment__form{
+
+        display: none;
+    }
+
+    .hero7 .form__hero3{
+
+        margin-top: 150px;
+
+        color: white;
+
+        width: 100%;
+
+        background-color: #181818;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero7formrow{
+
+        display: none;
+    }
+
+    .hero6{
+        display: none;
+    }
 
     .appointment__wrapper{
         display: none;
@@ -1059,7 +1579,7 @@ main {
 
         width: 75vw;
         position: absolute;
-        bottom: -215px;
+        bottom: -19%;
         left: 50%;
         transform: translateX(-50%);
 
@@ -1126,7 +1646,8 @@ main {
     }
 
     .hero2container {
-        
+
+        /* margin: 0 7% 0 7%; */
         flex-direction: column;
         align-items: center;
 
@@ -1143,7 +1664,8 @@ main {
 
 
         /* height: auto; */
-        width: 420px;
+        width: 75%;
+        height: auto;
 
     }
 
@@ -1166,125 +1688,6 @@ main {
         width: 100vw;
     } */
   }
-/* ------------------- Если экран меньше 1000 px------------------------------------------------------------------- */
-  @media only screen and (max-width: 1000px) { 
-
-    #hero3img1{
-
-        width: 75vw;
-    }
-
-    .wrapper__hero3{
-
-        width: 100%;
-    }
-
-    .phonenumber{
-        
-        color: white;
-    }
-
-    .header-navigation {
-
-        display: none;
-        /* font-size: smaller; */
-    }
-
-    .hero3{
-
-        margin-top: -300px;
-        width: 100%;
-
-    }
-    .scroll__arrows{
-
-        display: none;
-
-    }
-
-    .hero2__content img {
-
-        width: auto;
-
-    }
-
-
-    .hero2list{
-
-        display: none;
-
-    }
-
-    /* .hero2{
-
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .hero2__container{
-
-        align-items: center;
-    } */
-    .hero2__content {
-        
-        margin-left: 10vw;
-        max-width: 700px;
-        flex-direction: column;
-
-    }
-
-    .hero2__textcontent {
-
-        margin-left: 50px;
-
-    }
-
-  }
-/* ------------------- Если экран меньше 1300 px------------------------------------------------------------------- */
-
-  @media only screen and (max-width: 1300px) {
-
-    .hero5_ul_wrapper{
-        margin-right: 0;
-    }
-
-    .CallRequest{
-
-        display: none;
-    }
-
-    .phonenumber{
-
-        margin-right: 25px;
-        font-size: 1rem;
-    }
-
-/*  .hero2__content img { 
-        width: auto; 
-        height: 350px;
-    }
-*/
-    .hero2subcontent{
-
-        width: 300px;
-
-    }
-
-    .hero2__textcontent {
-        width: min-content;
-        margin-left: 5%;
-    
-    }
-
-
-    .hero2__textcontent p {
-
-        width: 380px;
-
-    }
-
-
-}
 
 /* ------------------- Если экран меньше 1411 px------------------------------------------------------------------- */
 
